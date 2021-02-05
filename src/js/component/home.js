@@ -9,12 +9,14 @@ import { Alert } from "./alert";
 //create your first component
 export function Home() {
 	return (
-		<div className="container-fuild  text-center">
+		<div className="text-center container-fuild ">
 			<Navbar />
-			<Jumbotron />
+			<div className="d-flex justify-content-center">
+				<Jumbotron />
+			</div>
 
-			<div className="row  ">
-				<Card />
+			<div className="row d-flex justify-content-center  ">
+				<Card title="hola" description="hola" />
 				<Card />
 				<Card />
 				<Card />
