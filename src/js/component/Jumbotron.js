@@ -5,7 +5,12 @@ export function Jumbotron() {
 		<div>
 			<div
 				className="jumbotron"
-				style={{ margin: "50px", width: "350px">
+				style={{
+					margin: "50px",
+
+					height: "450px",
+					marginTop: "0px"
+				}}>
 				<h1 className="display-4">Hello, world</h1>
 				<p className="lead">
 					This is a simple hero unit, a simple jumbotron-style
