@@ -10,21 +10,21 @@ export function Jumbotron() {
 				marginTop: "0px",
 				width: "70%"
 			}}>
-			<h1 className="display-4 float-left">Bienvenido a mi pagina </h1>
+			<h1 className="display-4 float-left">Bienvenido a mi pagina</h1>
 			<p className="lead">
-				This is a simple hero unit, a simple jumbotron-style component
-				for calling extra attention to featured content or information.
+				React es una biblioteca Javascript para crear interfaces de
+				usuario.
 			</p>
 			<hr className="my-4" />
 			<p className="float-right">
-				It uses utility classNamees for typography and spacing to space
-				content out within the larger container.
+				React es mantenido por Facebook y la comunidad de software
+				libre. En el proyecto hay más de mil desarrolladores libres.
 			</p>
 			<a
 				className="btn btn-primary btn-lg float-left"
 				href="https://es.reactjs.org/"
 				role="button">
-				Call to action!
+				Aprende Más aqui!!!
 			</a>
 		</div>
 	);
